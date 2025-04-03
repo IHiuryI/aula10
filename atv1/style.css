@@ -9,6 +9,20 @@ body {
     background: linear-gradient( to right, #ffefba, #ffffff);
 }
 
+.container {
+    display: flex;
+
+}
+
+.coluna1 {
+
+}
+
+.coluna2 {
+
+}
+
+
 h1 {
     color: black;
 }

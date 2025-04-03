@@ -8,25 +8,29 @@
     <title>Atividade 1</title>
 </head>
 <body>
-    <h1>Somando Valores</h1>
-    <div class="input"><input type="number" id="num1"> + <input type="number" id="num2"></div>
-    <button onclick="somar()">Somar</button>
-    <p id="resultadoSoma"></p>
+    <div class="container">
+        <div class="coluna1">
+            <h1>Somando</h1>
+            <div class="input"><input type="number" id="num1"> + <input type="number" id="num2"></div>
+            <button onclick="somar()">Somar</button>
+            <p id="resultadoSoma"></p>
+            <h1>Subtraindo</h1>
+            <div class="input"><input type="number" id="num3"> - <input type="number" id="num4"></div>
+            <button onclick="subtrair()">Subtrair</button>
+            <p id="resultadoSubtracao"></p>
+        </div>
 
-    <h1>Subtraindo Valores</h1>
-    <div class="input"><input type="number" id="num3"> - <input type="number" id="num4"></div>
-    <button onclick="subtrair()">Subtrair</button>
-    <p id="resultadoSubtracao"></p>
-
-    <h1>Multiplicando Valores</h1>
-    <div class="input"><input type="number" id="num5"> x <input type="number" id="num6"></div>
-    <button onclick="multiplicar()">Multipicar</button>
-    <p id="resultadoMultiplicacao"></p>
-
-    <h1>Dividindo Valores</h1>
-    <div class="input"><input type="number" id="num7"> : <input type="number" id="num8"></div>
-    <button onclick="dividir()">Dividir</button>
-    <p id="resultadoDivisao"></p>
+        <div class="coluna2">
+            <h1>Multiplicando</h1>
+            <div class="input"><input type="number" id="num5"> x <input type="number" id="num6"></div>
+            <button onclick="multiplicar()">Multipicar</button>
+            <p id="resultadoMultiplicacao"></p>
+            <h1>Dividindo</h1>
+            <div class="input"><input type="number" id="num7"> : <input type="number" id="num8"></div>
+            <button onclick="dividir()">Dividir</button>
+            <p id="resultadoDivisao"></p>
+        </div>
+    </div>
 
     
     
